@@ -1,0 +1,160 @@
+html,body{
+	height:100%;
+	width:100%;
+	background-image:url(../img/patten.png);
+	transition:all linear 0.5s;
+	}
+.bn{
+	position:fixed;
+	bottom:10px;
+	width:150px;
+	right:10px;
+	}
+.newitem{
+	position:absolute;
+	z-index:10;
+	padding:10px;
+	top:20%;
+	width:30%;
+	right:10px;
+	border-radius:10px;
+	display:none;
+	background-color:#F8F8F3;
+	border:thin #999 1px;
+	}	
+.activepop{
+	display:block;
+	}
+.container{
+	margin-top:50px;
+	
+	}	
+.box{
+
+	background-color:#FFF;
+	box-shadow:0 4px 4px #000 !important;
+	height:100px;
+	margin:20px;
+	cursor:pointer;
+	border-radius:5px;
+	position:absolute;
+	}	
+.box-thumb{
+	width:60px;
+	height:60px;
+	margin-top:20px;
+
+	}	
+.box-name{
+	position:absolute;
+	left:40%;
+	top:20%;
+		}	
+.box-qty{	
+position:absolute;
+top:20%;
+right:22px;
+padding:2px;
+border-radius:20%;
+color:#0C0;
+box-shadow:2px 2px 2px #000000;
+}
+.qt{
+	position:absolute;
+	top:1%;
+right:8px;
+	}
+.add-pop{
+
+	width:100%;
+	position:fixed;
+	display:none;
+	width:300px;
+	left:30%;
+	padding:50px;
+	margin-left:10%;
+	z-index:110;
+	border-radius:10px;
+	background-color:#D8D6CD;
+	border:1px solid #000;
+	
+		}			
+.popgrey{
+	opacity:0.2;
+	background-color:#000;
+	position:fixed;
+	height:100%;
+	width:100%;
+	display:none;
+	z-index:100;
+	}
+.monkeyjump{
+	width:100%;
+	padding:0;
+	text-align:center;
+	border-bottom:1px solid #999;	 	
+	}	
+.formname{
+	display:none;
+	}	
+.left-bar{
+	transform:rotate(45deg);
+	}
+.right-bar{
+transform:rotate(-45deg);
+	}
+.bar{
+	position:absolute;
+	background:#000;
+	height:2px;
+	width:20px;
+	margin-left:-10px;
+	margin-top:2px;
+	}		
+.cross{
+	position:absolute;
+	right:20px;
+	top:10px;
+	width:20px;
+	padding-left:0;
+	height:20px;
+	background-color:#FFF;
+	}	
+.bt{ margin-top:200px;
+	bottom:0;
+	position:fixed;
+
+	margin-left:100px;
+	margin-rignt:100px;
+	}
+.into{
+	position:fixed !important;
+	margin-top:100px !important;  	}	
+.row{
+ border-bottom: 1px solid #ccc !important;
+ margin-top:0 !important ;
+ padding:20px !important;
+ padding-left:40px !important;
+ margin-left:10px !important;
+ margin-right:10px !important; 
+ background-color:#FFF !important; 
+ border-radius:5px;
+ }
+.headw{margin-left:5%; font-size:40px !important; line-height:40px !important;}
+.lap{
+	width:300px;
+	height:250px;
+	padding:10px;
+	left:35%;
+	top:20%;
+	display:none;
+	background-color:#FFF;
+	border-radius:5px;
+	position:absolute;
+	border:1px solid #000;
+	}
+container-cart{
+	border:1px #CCCCCC solid;
+	}
+	.hill{
+		display:none;}
